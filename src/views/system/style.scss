@@ -1,0 +1,21 @@
+.list{
+  overflow: hidden;
+  margin: 5px 0;
+  .list-item{
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    color: #191919;
+    cursor: pointer;
+    border-radius: 5px;
+    &.on{
+      background: #3FBDD4;
+      color: #ffffff;
+    }
+  }
+}
+
+.el-divider {
+  margin: 2px 0 !important;
+}
+
